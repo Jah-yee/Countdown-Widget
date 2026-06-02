@@ -44,7 +44,7 @@ let seconds = minutes*60
 let widget = new ListWidget()
 
 widget.backgroundColor = colorBack
-let countdown = widget.addText(${days})
+let countdown = widget.addText(`${days}`)
 countdown.font = new Font("ArialRoundedMTBold", fontDays, "bold")
 countdown.textColor = colorText
 widget.addSpacer(2)
